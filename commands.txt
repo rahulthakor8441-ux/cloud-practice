@@ -1,0 +1,369 @@
+    1  clear
+    2  pwd
+    3  cd
+    4  ls
+    5  clear
+    6  clean
+    7  clear
+    8  pwd
+    9  ls
+   10  ls-la
+   11  touch rahul.txt
+   12  ls
+   13  ls-l
+   14  rahul.txt ls-l
+   15  cat rahul.txt
+   16  echo "hi my name is rahul and you " >rahul.txt
+   17  cat rahul.txt
+   18  echo " me ak achha engineer hu" >>rahul.txt
+   19  car rahul.txt
+   20  cat rahul.txt
+   21  less rahul.txt
+   22  grep "you" rahul.txt
+   23  cd/mnt/c/users
+   24  ls /mnt/c/users
+   25  cp rahul.txt /mnt/c/users/acer/desktop
+   26  clear
+   27  exit
+   28  ls
+   29  ls-l
+   30  ls -l
+   31  chmod u-w rahul.txt
+   32  ls -l
+   33  echo "hi rahul" <rahul.txt
+   34  car rahul.txt
+   35  cat rahul.txt
+   36  chmod u-r rahul.txt
+   37  ls -l
+   38  cat rahul.txt
+   39  exit
+   40  hi
+   41  id rahul.txt
+   42  id rahulthakor
+   43  whoami
+   44  groups
+   45  ps -ef
+   46  ps aux | more
+   47  ps -ef | grep httpd
+   48  top
+   49  systemctl start httpd
+   50  systemctl status httpd
+   51  systemctl status rahul.txt
+   52  cat service
+   53  systemctl restart httpd
+   54  systemctl is-enabled httpd.service
+   55  systemctl enable httpd.service
+   56  systemctl 
+   57  systemctl | grep running
+   58  systemctl status shhd
+   59  systemctl status socket
+   60  systemctl status dbus.socket
+   61  systemctl status nginx
+   62  sudo systemctl start nginx
+   63  curl localhost
+   64  sudo
+   65  sudo apt update
+   66  passwd rahulthakor
+   67  df -h
+   68  du -sh ~/desktop/0
+   69  du -sh ~/desktop/*
+   70  du -h
+   71  du -sh folder
+   72  ls
+   73  du -sh rahulthakor
+   74  du -sh rahul.txt
+   75  clear
+   76  sudo
+   77  sudo apt update
+   78  password
+   79  change password
+   80  passwd
+   81  sudo apt update
+   82  y
+   83  cd ~/../../mnt/c/users/acer/desktop
+   84  ls
+   85  exit
+   86  sudo systemctl status nginx
+   87  sudo apt install nginx
+   88  y
+   89  systemctl status nginx
+   90  sudo systemctl status nginx
+   91  nginx -v
+   92  sudo apt install nginx
+   93  sudo systamctl
+   94  sudo systemctl status nginx
+   95  curl localhost
+   96  sudo systemctl stop nginx
+   97  sudo systemctl status nginx
+   98  curl localhost
+   99  sudo systemctl start nginx
+  100  sudo systemctl status nginx
+  101  df -h
+  102  sudo du -sh /var/*
+  103  top
+  104  htop
+  105  sudo apt install htop
+  106  htop
+  107  free -h
+  108  sudo dmesg -t | grep -i oom
+  109  ls
+  110  ls -l rahul.txt
+  111  chmod +x rahul.txt
+  112  ls -l rahul.txt
+  113  home
+  114  whoiam
+  115  ls -l rahulthakor
+  116  cat rahulthakor
+  117  cat rahul.txt
+  118  exit
+  119  sudo journalctl -u nginx
+  120  sudo tail -n20 /var/log/nginx/error.log
+  121  sudo journalctl -u nginx -f
+  122  ip a
+  123  ip route
+  124  ping -c 4 1.1.1.1
+  125  getent hosts google.com
+  126  curl -i https://google.com
+  127  curl -i https://youtube.com
+  128  sudo ss -tuln
+  129  sudo ss -tuln | grep ':80'
+  130  nslookup amazon.com
+  131  sudo apt install nslookup
+  132  sudo apt install dnsutils
+  133  nslookup amazon.com
+  134  sudo ss -tulnp
+  135  d:
+  136  cd /media/$user/*/users/ls
+  137  cd /media/$USER/*/users/ls
+  138  clear
+  139  exit
+  140  git --version
+  141  git config --global user.name "rahul"
+  142  git config --global user.email "rahulthakor8441@gmail.com"
+  143  mkdir cloud-practice
+  144  cd cloud-practice
+  145  git init
+  146  echo "hi am rahul, nice to meet you" > readme.r
+  147  cat readme.r
+  148  git status
+  149  git add readme.r
+  150  git commit -m "my first cloud practice project"
+  151  git status
+  152  git log --oneline
+  153  ls
+  154  cat readme.r
+  155  clean
+  156  clear
+  157  exit
+  158  ls
+  159  git status
+  160  git --oneline
+  161  cd cloud-practice
+  162  pwd
+  163  git status
+  164  echo " hi budyy" >readme.r
+  165  git status
+  166  git diff
+  167  git add readme.r
+  168  git commit -m
+  169  git commit -m "update cloud learning notes"
+  170  git --oneline
+  171  git log--oneline
+  172  git log --oneline
+  173  cd~/cloud-practice
+  174  cd ~/cloud-practice
+  175  git status
+  176  git remote add origin https://github.com/rahulthakor8441-ux/cloud-practice.git
+  177  git push -u origin master
+  178  `git remote add origin https://github.com/rahulthakor8441-ux/cloud-practice.git
+  179  git remote add origin https://github.com/rahulthakor8441-ux/cloud-practice.git
+  180  git remote -v
+  181  git pull origin master
+  182  git push -u origin main
+  183  git push -u origin master
+  184  clear
+  185  git config --global credential.helper store
+  186  git push -u origin master
+  187  cd cloud-practice
+  188  git push -u origin master
+  189  ls
+  190  git add readme.r
+  191  git commit -m "added readme.r file"
+  192  git push
+  193  cat readme.r
+  194  git pull
+  195  cat readme.r
+  196  git checkout -b feature-test
+  197  echo "mera name jiyan he" > feature.txt
+  198  git add feature.txt
+  199  git commit -m "added feature.txt in feature-test branch"
+  200  git push -u origin feature-test
+  201  git checkout master
+  202  ls
+  203  git merge feature-test
+  204  ls
+  205  git push
+  206  git branch -d feature-test
+  207  git push origin --delete feature-test
+  208  git branch
+  209  git status
+  210  cd ~
+  211  git clone
+  212  cd cloud-practice-copy
+  213  cd ~
+  214  git clone https://github.com/rahulthakor8441-ux/cloud-practice
+  215  git clone https://github.com/rahulthakor8441-ux/cloud-practice-new
+  216  git clone https://github.com/rahulthakor8441-ux/cloud-practice.git cloud-practice-new
+  217  cd cloud-practice-new
+  218  pwd
+  219  explorer .
+  220  explorer.
+  221  ls
+  222  explorer .
+  223  explorer.exe .
+  224  pwd
+  225  ls
+  226  ls -l
+  227  ls -la
+  228  cd cloud-practice
+  229  cd ..
+  230  cd ~
+  231  mkdire rok
+  232  mkdir rok
+  233  cd rok
+  234  cd ~
+  235  touch lil.txt
+  236  ls
+  237  cat lil.txt
+  238  mv lil.txt rok
+  239  cd rok
+  240  ls
+  241  cd ~
+  242  rm lil.txt
+  243  cd rok
+  244  rm lil.txt
+  245  ls
+  246  cd ~
+  247  find ~ -name"rahul.txt
+  248  find ~ -name "rahul.txt"
+  249  df -h
+  250  du -sh /var/*
+  251  free -h
+  252  top
+  253  ps aux
+  254  sysytemctl status nginx
+  255  systemctl status nginx
+  256  journalctl -u sudo
+  257  journalctl -u nginx
+  258  ping -c 4 1.1.1.1
+  259  ss -tuln
+  260  journalctl -u google.com
+  261  whoami
+  262  crontab -e
+  263  cd ~
+  264  ls
+  265  whoami
+  266  mkdir revition
+  267  cd revition
+  268  echo "linux practice" > notes.txt
+  269  ls
+  270  cat notes.txt
+  271  cd ~
+  272  sudo ss -tuln
+  273  clean
+  274  clear
+  275  exit
+  276  ls
+  277  cd cloud-practice
+  278  ls
+  279  git status
+  280  git diff
+  281  cd ~
+  282  git status
+  283  clear
+  284  cd cloud-practice
+  285  pwd
+  286  ls
+  287  mkdir -p scripts reports
+  288  ls
+  289  cat > scripts/ server_health.sh <<'EOF'
+  290  #!/bin/bash
+  291  set -o pipefail
+  292  SCRIPT_DIR="$(CD -- "$(dirname -- "$
+  293  {BASH_SOURCE[0]}")" && PWD)"
+  294  PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+  295  REPORT_DIR="$PROJECT_DIR/reports"
+  296  mkdir -p "$REPORT_DIR"
+  297  REPORT_FILE="$REPORT_DIR/health_report_$
+  298  (date +%F_%M-%s).txt"
+  299  {
+  300   
+  301   
+  302  mkdir -p~/cloud-practice/scripts ~/
+  303  clear
+  304  ls
+  305  nano scripts/server_health.sh
+  306  chmod +x scripts/server_health.sh && ./scripts/server_health.sh
+  307  bash -n scripts/server_health.sh
+  308  ./scripts/server_health.sh > reports/report.txt
+  309  cat reports/report.txt
+  310  nano readme.md
+  311  git status
+  312  git add readme.md scripts/server_health.sh
+  313  git commit -m "add linux health monitor project"
+  314  git push
+  315  git log --oneline -5
+  316  clear
+  317  exit
+  318  cd cloud-practice
+  319  ./scripts/server_health.sh
+  320  cat scripts/server_health.sh
+  321  df -p /| awk 'NR==2 {print "root disk usage:" $5}'
+  322  cd cloud-practice
+  323  ./scripts/server_health.sh
+  324  ./scripts/server_health.sh > reports/report.txt
+  325  cat reports/report.txt
+  326  crontab -l
+  327  crontab -e
+  328  crontab -l
+  329  cat ~/cloud-practice/reports/cron.log
+  330  ls
+  331  crontab -e
+  332  ./scripts/server_health.sh >> reports/cron.log 2>&1
+  333  cat reports/cron.log
+  334  sudo service cron status
+  335  cat ~/cloud-practice/reports/cron.log
+  336  cat reports/cron.log
+  337  cron -l
+  338  crontab -l
+  339  crontab -e
+  340  cat reports/cron.log
+  341  crontab -e
+  342  cat reports/cron.log
+  343  crontab -e
+  344  cat reports/cron.log
+  345  crontab -l
+  346  > reports/cron.log
+  347  cat reports/cron.log
+  348  clear
+  349  exit
+  350  ls
+  351  cd cloud-practice
+  352  cat reports/cron.log
+  353  git status
+  354  git add reports/
+  355  git commit -m "add server health reports"
+  356  git push
+  357  git status
+  358  cd~
+  359  cd ~
+  360  mkdir network-lab
+  361  cd network-lab
+  362  ip a
+  363  ip route
+  364  ping -c 4 1.1.1.1
+  365  getent hosts google.com
+  366  getent hosts youtube.com
+  367  curl -I https://google.com
+  368  ss -tuln
+  369  history > commands.txt
